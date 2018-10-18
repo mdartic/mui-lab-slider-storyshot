@@ -1,0 +1,22 @@
+image: node:10
+
+stages:
+  - tests
+
+cache:
+  paths:
+    - node_modules/
+
+before_script:
+  - node --version
+  - npm --version
+  - npm ci
+
+#
+# Stage tests
+#
+
+npm_test:
+  stage: tests
+  script:
+    - npm test

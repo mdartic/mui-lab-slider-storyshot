@@ -1,0 +1,31 @@
+{
+  "name": "mui-lab-slider-storyshot",
+  "version": "0.0.1",
+  "description": "Project to make fail Slider with storybook + storyshot + jest",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com:mdartic/mui-lab-slider-storyshot.git"
+  },
+  "author": "mdartic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/mdartic/mui-lab-slider-storyshot/issues"
+  },
+  "homepage": "https://gitlab.com/mdartic/mui-lab-slider-storyshot#readme",
+  "devDependencies": {
+    "@material-ui/core": "^3.2.2",
+    "@material-ui/lab": "^3.0.0-alpha.20",
+    "@storybook/addon-storyshots": "^3.4.11",
+    "@storybook/react": "^3.0.0",
+    "babel-core": "^6.26.3",
+    "jest": "^23.6.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-test-renderer": "^16.5.2"
+  }
+}
